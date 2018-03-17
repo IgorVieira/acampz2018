@@ -1,0 +1,31 @@
+.navbar ul{
+  overflow: hidden;
+  color: #ddd;
+  padding: 0;
+  text-align: right;
+  padding-top: 1.4em;
+  margin-top:0;
+  padding-right:2em;
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.5rem;
+  cursor:pointer;	
+}
+
+.navbar ul li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.navbar ul li:hover:after {
+  width: 100%;
+  background: #ffffff;
+}
