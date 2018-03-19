@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('../fonts/Geometos.ttf.woff');
 @import './timeline.css';
 @import './navbar.css';
 @import './footer.css';
+@import './menu.css';
 
 body {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Geometos', sans-serif;
+}
+
+#main {
+  padding: 0;
 }
 
 .header {
@@ -23,7 +28,7 @@ body {
 }
 
 .header-text {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .header-subtitle {
@@ -45,7 +50,7 @@ body {
   display: inline-block;
   padding: 20px 35px;
   color: #ffff;
-  font-size: 34px;
+  font-size: 24px;
   background-color: #115D8C;
   text-align: center;
   cursor: pointer;
@@ -111,7 +116,7 @@ body {
   padding-top: 30px;
   font-size: 32px;
   padding-top: 30px;
-  font-size: 32px;
+  font-size: 24px;
   padding-top: 30px;
   color: #ffff;
 }
@@ -150,6 +155,205 @@ body {
   padding-bottom: 10px;
 }
 
+
+
+@media screen and (width:360px) and (height:640px) {
+  .header-text {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 26px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 280px;
+  }
+
+  .navbar ul li {
+    padding: 5px;
+  }
+
+  .menu span {
+    display: block;
+  }
+  
+  .navbar {
+    display: none
+  }
+}
+
+@media screen and (width:384px) and (height:640px) {
+  .header-text {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 26px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 300px;
+  }
+
+  .navbar ul li {
+    padding: 5px;
+  }
+
+  .menu span {
+    display: block;
+  }
+  
+  .navbar {
+    display: none
+  }
+
+}
+
+@media screen and (width: 411px) and (height: 731px) {
+  .header-text {
+    font-size: 50px;
+  }
+
+  .header-subtitle {
+    font-size: 30px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 320px;
+  }
+
+  .menu span {
+    display: block;
+  }
+  
+  .navbar {
+    display: none
+  }
+}
+
+
+
+@media screen and (width: 411px) and (height: 823px) {
+  .header-text {
+    font-size: 48px;
+  }
+
+  .header-subtitle {
+    font-size: 26px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 325px;
+  }
+
+  .menu span {
+    display: block;
+  }
+  
+  .navbar {
+    display: none
+  }
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+  .header-text {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 26px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 300px;
+  }
+
+  .navbar ul li {
+    padding: 6px;
+  }
+
+  .menu span {
+    display: block;
+  }
+  
+  .navbar {
+    display: none
+  }
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+  .header-text {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 26px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 330px;
+  }
+
+  .navbar ul li {
+    padding: 6px;
+  }
+}
+
+
+@media screen and (width: 375px) and (height: 812px) {
+  .header-text {
+    font-size: 42px;
+  }
+
+  .header-subtitle {
+    font-size: 26px;
+  }
+
+  .header-context button {
+    font-size: 19px;
+  }
+
+  .speaker-image {
+    height: 300px;
+  }
+
+  .navbar ul li {
+    padding: 6px;
+  }
+
+  .menu span {
+    display: block;
+  }
+  
+  .navbar {
+    display: none
+  }
+}
 
 
 
