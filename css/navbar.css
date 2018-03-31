@@ -1,6 +1,6 @@
 .navbar ul{
   overflow: hidden;
-  color: #ddd;
+  color: #807777;
   padding: 0;
   text-align: right;
   padding-top: 1.4em;
@@ -29,7 +29,6 @@
   width: 100%;
   background: #ffffff;
 }
-
 
 
 .sidenav {

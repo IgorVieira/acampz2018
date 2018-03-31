@@ -2,6 +2,8 @@
 .footer {
   background: #115D8C;
   min-height: 20vh;
+  padding-left: 20px;
+  margin-top: -17px;
 }
 
 .footer-title {
@@ -24,6 +26,11 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+.footer-partnerships {
+  width: 80px;
+  height: 80px;
 }
 
 .flex-item-4 {
@@ -68,6 +75,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .copyright {
